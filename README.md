@@ -10,8 +10,8 @@ This API is implemented using Node.js, Express.js and MongoDB, providing functio
 
 This project uses the following technologies:
 
-- **Node.js** JavaScript runtime environment.
-- **Dotenv:** Loads environment variables from a .env file into process.env.
+- **Node.js:** JavaScript runtime environment.
+- **Dot-env:** Loads environment variables from a .env file into process.env.
 - **Express js:** Node.js framework.
 - **Mongoose:** MongoDB object modeling for Node.js.
 - **Nodemon:** Utility that monitors for changes in files and automatically restarts the server.
@@ -191,9 +191,9 @@ DELETE /api/v1/tasks/:id
 
 The API handles errors including:
 
-**Route not found**
-**Invalid task data**
-**Other potential errors**
+- Route not found
+- Invalid task data
+- Other potential errors
 
 ## Folder Structure
 
